@@ -14,7 +14,7 @@
 | UX 2.4 | Password field and confirmation password field mis matching. | Password and confirmation password field should be mismatched.  | If the password and confirmation password are mismatched display an appropriate message. | Valid Url  and browser | Pushti |  |
 | UX 2.5 | Form is correctly field out then direct the user to the landing log in page.  | After filling out all the detail on the form correctly , click on the submit button it should navigate to landing log in page.  | Pop up message for successfully signed up.  | Valid Url  and browser | Pushti |  |
 | UX 3.1 | Checking the new sign up credentials | Checking the new sign up credentials | Successful login | Valid Url  and browser | Muhaimin |  |
-| DB 1.1 | Check whether data gets written  database after succesfull sign up. | Enter valid username and password after successful sign up see whether username  | Database will not be altered. | Database Connectivity | Muhaimin |  |
+| DB 1.1 | Check whether data gets written  database after succesfull sign up. | Enter valid username and password after successful sign up see whether username  | Will have database entry same as enter by user. | Database Connectivity | Muhaimin |  |
 | API 1.1 | Authorised user should sign up succesfully with response code 200. | Enter correct credentials  | Response code is 200 | Postman for checking response code. | Muhaimin |  |
 | API 1.2 | Authorised user enters invalid password , response code 401. | Invalid ceredentials  | response code is 401. | Postman for checking response code | Muhaimin |  |
 | API 1.3 | Valid password and invalid username then response code 401. | Response code is 401 on invalid credentials. | response code is 401 | Postman for checking response code | Muhaimin |  |
