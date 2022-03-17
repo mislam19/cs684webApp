@@ -17,24 +17,24 @@
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-|  | UX 1.1 | Preet |  | |
-|  | UX 1.2 | Preet |  | |
-|  | UX 1.3 | Preet |  | |
-|  | UX 1.4 | Preet |  | |
-|  | UX 1.5 | Preet |  | |
-|  | UX 1.6 | Preet |  | |
-|  | UX 1.7 | Preet |  | |
+| 16 feb'22 | UX 1.1 | Preet | Fail | |
+| 16 feb'22 | UX 1.2 | Preet | Fail | |
+| 16 feb'22 | UX 1.3 | Preet | Fail | |
+| 16 feb'22 | UX 1.4 | Preet | Fail | |
+| 16 feb'22 | UX 1.5 | Preet | Fail | |
+| 16 feb'22 | UX 1.6 | Preet | Fail | |
+| 16 feb'22 | UX 1.7 | Preet | Fail | |
    
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-|  | UX 1.1 | Preet |  | |
-|  | UX 1.2 | Preet |  | |
-|  | UX 1.3 | Preet |  | |
-|  | UX 1.4 | Preet |  | |
-|  | UX 1.5 | Preet |  | |
-|  | UX 1.6 | Preet |  | |
-|  | UX 1.7 | Preet |  | |
+| 17 feb'22 | UX 1.1 | Preet | Pass | |
+| 17 feb'22 | UX 1.2 | Preet | Pass | |
+| 17 feb'22 | UX 1.3 | Preet | Pass | |
+| 17 feb'22 | UX 1.4 | Preet | Pass | |
+| 17 feb'22 | UX 1.5 | Preet | Pass | |
+| 17 feb'22 | UX 1.6 | Preet | Pass | |
+| 17 feb'22 | UX 1.7 | Preet | Pass | |
   </p>
   </details>
   
