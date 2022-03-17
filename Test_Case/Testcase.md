@@ -1,7 +1,5 @@
 # Test Case
-<details> <summary> Test Cases </summary>
-  <p>
-    
+
 | Test Category | Test Category | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | UX 1 | UX 1.1 | Valid username and valid password | Enter a valid Username, password and click on login button. | Successful login | Valid Url  and browser | Preet | Pass |
@@ -22,7 +20,6 @@
 |  | API 1.2 | Authorised user enters invalid password , response code 401. | Invalid c redentials  | response code is 401. |  |  |  |
 |  | API 1.3 | Valid password and invalid username then response code 401. | Response code is 401 on invalid credentials. | response code is 2401 |  |  |  |
 
-  </p>
-  </details>
+
 
 
