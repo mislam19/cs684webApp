@@ -124,14 +124,6 @@
 | 18 feb'22  | UX 2.4 | Pushti | Pass | |
 | 18 feb'22  | UX 2.5 | Pushti | Pass | |   
 
-  </p>
-  </details>
-  
-
-<details><summary>Muhaimin</summary>
- <p> 
-
-   
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | 15 feb'22 | UX 3.1 | Muhaimin | Fail | |
@@ -156,7 +148,11 @@
 | 21 feb'22 | API 1.1| Muhaimin | Pass | |
 | 21 feb'22 | API 1.2| Muhaimin | Pass | |
 | 21 feb'22 | API 1.3| Muhaimin | Pass | |   
-</p>
+  </p>
+  </details>
+
+   
+
 
   
  <details><summary>Test Report S2</summary>
