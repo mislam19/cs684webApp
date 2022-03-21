@@ -11,7 +11,7 @@
 | Link between sign up page and login page after filling out the sign up details | Manual testing | After signing up it should navigate to sign in page and should be able to login with new login credentials. | Muhaimin | 15-18 feb'22 |  |
 | API response | Manual testing with postman software | Checking the response code with postman | Muhaimin will perform API response code test. | 19-21 feb'22 |  |
 | Database | Verification by inspection | Entering user name and password and inspecting the database for that particular entry | Muhaimin will check for the database connectivity | 19-21 feb'22  |  |
-| Unit Testing | Automated testing | Testing the functionality of code |    | 18-21 Mar'22  |  |  
+  
 
 </p>
 </details>
@@ -29,6 +29,7 @@
 | Database | Verification by inspection | Entering user name and password and inspecting the database for that particular entry | Muhaimin will check for the database connectivity | 19-21 feb'22  |  |
 | Functionality of new landing page | Manual testing | Take the proper URL and landing page should be displayed as per requirements |    | 14-18 Mar'22  |  |  
 | Functionality of settings modal | Manual testing | Selection of catergories  |    | 16-18 Mar'22  |  |  
+| Unit Testing | Automated testing | Testing the functionality of code |    | 18-21 Mar'22  |  |
 </p>
 </details>
 
