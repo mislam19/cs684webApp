@@ -64,7 +64,7 @@
 
 # Testreport
 
-<details><summary>Test Report 1</summary>
+<details><summary>Test Report S1</summary>
  <p> 
 
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
@@ -125,3 +125,10 @@
 
   </p>
   </details>
+  
+ <details><summary>Test Report S1</summary>
+ <p> 
+   
+   
+ </p>
+ </details>
