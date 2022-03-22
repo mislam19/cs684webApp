@@ -161,6 +161,43 @@
  <details><summary>Test Report S2</summary>
  <p> 
    
+ | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 14 Mar'22 | UT 1.1 | Preet | Fail | |
+| 14 Mar'22 | UT 1.2 | Preet | Fail | |
+| 14 Mar'22 | UT 1.3 | Pushti | Fail | |
+| 14 Mar'22 | UT 1.4 | Muhaimin |  | |
+
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 15 Mar'22 | UT 1.1 | Preet | Fail | |
+| 15 Mar'22 | UT 1.2 | Preet | Fail | |
+| 15 Mar'22 | UT 1.3 | Pushti | Fail | |
+| 15 Mar'22 | UT 1.4 | Muhaimin |  | |
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 15 Mar'22 | UT 1.1 | Preet | Pass | |
+| 15 Mar'22 | UT 1.2 | Preet | Fail | |
+| 15 Mar'22 | UT 1.3 | Pushti | Fail | |
+| 15 Mar'22 | UT 1.4 | Muhaimin |  | |
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 17 Mar'22 | UT 1.1 | Preet | Pass | |
+| 17 Mar'22 | UT 1.2 | Preet | Pass | |
+| 17 Mar'22 | UT 1.3 | Pushti | Pass | |
+| 17 Mar'22 | UT 1.4 | Muhaimin |  | |
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 19 Mar'22 | AT 1.1 | Preet | Fail | Check Password validation |
+| 19 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
+| 19 Mar'22 | AT 1.4 | Pushti | Fail | GET /signin |  
+| 19 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
+| 19 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
    
  </p>
  </details>
