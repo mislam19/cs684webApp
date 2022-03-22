@@ -1,7 +1,7 @@
 # Test case
 | Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- |
-| UX 1.1 | Valid username and valid password | Enter a valid Username, password and click on login button. | Successful login | Valid Url  and browser | Preet | Pass |
+| UX 1.1 | Valid username and valid password | 1. Go to URl 2. Enter valid username and valid password 3. Click on login | Successful login | Valid Url  and browser | Preet | Pass |
 | UX 1.2 | Valid username and invalid password | Enter a valid Username, invalid password and click on login button. | A pop-up message box to show invalid username/password. | Valid Url  and browser | Preet | Pass |
 | UX 1.3 | Invalid username and valid password | Enter Invalid username and valid password  | A pop-up message box to show invalid username/password. | Valid Url browser | Preet | Pass |
 | UX 1.4 | Invalid username and valid password | Enter Invalid username and valid password  | A pop-up message box to show invalid username/password. | Valid Url browser | Preet | Pass |
