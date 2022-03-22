@@ -193,11 +193,51 @@
 | --- | --- | --- | --- | --- |
 | 19 Mar'22 | AT 1.1 | Preet | Fail | Check Password validation |
 | 19 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
-| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
+| 19 Mar'22 | AT 1.3 | Muhaimin | Fail | GET /index to check if server is running |
 | 19 Mar'22 | AT 1.4 | Pushti | Fail | GET /signin |  
 | 19 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
 | 19 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
-| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
+| 19 Mar'22 | AT 1.7 | Muhaimin | Fail | POST /signout |   
+
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 19 Mar'22 | AT 1.1 | Preet | Fail | Check Password validation |
+| 19 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 19 Mar'22 | AT 1.3 | Muhaimin | Fail | GET /index to check if server is running |
+| 19 Mar'22 | AT 1.4 | Pushti | Fail | GET /signin |  
+| 19 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
+| 19 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 19 Mar'22 | AT 1.7 | Muhaimin | Fail | POST /signout |  
+  
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 20 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 20 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 20 Mar'22 | AT 1.3 | Muhaimin | Pass | GET /index to check if server is running |
+| 20 Mar'22 | AT 1.4 | Pushti | Pass | GET /signin |  
+| 20 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
+| 20 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 20 Mar'22 | AT 1.7 | Muhaimin | Fail | POST /signout |   
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 20 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 20 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 20 Mar'22 | AT 1.3 | Muhaimin | Pass | GET /index to check if server is running |
+| 20 Mar'22 | AT 1.4 | Pushti | Pass | GET /signin |  
+| 20 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
+| 20 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 20 Mar'22 | AT 1.7 | Muhaimin | Fail | POST /signout |   
+ 
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 21 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 21 Mar'22 | AT 1.2 | Preet | Pass | Check Email validation |
+| 21 Mar'22 | AT 1.3 | Muhaimin | Pass | GET /index to check if server is running |
+| 21 Mar'22 | AT 1.4 | Pushti | Pass | GET /signin |  
+| 21 Mar'22 | AT 1.5 | Pushti | Pass | GET /getDetails |    
+| 21 Mar'22 | AT 1.6 | Preet | Pass | GET /updatePreference |
+| 21 Mar'22 | AT 1.7 | Muhaimin | Pass | POST /signout |   
    
  </p>
  </details>
