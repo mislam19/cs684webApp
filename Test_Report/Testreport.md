@@ -100,3 +100,17 @@
 | 21 feb'22 | API 1.3| Muhaimin | Pass | |   
 </p>
 </details>
+
+<details><summary>Testreport S2 </summary>
+ <p> 
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 14 Mar'22 | UT 1.1 | Preet | Fail | |
+| 14 Mar'22 | UT 1.2 | Preet | Fail | |
+| 14 Mar'22 | API 1.1| Pushti |  | |
+| 14 Mar'22 | API 1.2| Muhaimin |  | |
+
+
+  </p>
+  </details>
