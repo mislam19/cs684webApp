@@ -166,28 +166,28 @@
 | 14 Mar'22 | UT 1.1 | Preet | Fail | |
 | 14 Mar'22 | UT 1.2 | Preet | Fail | |
 | 14 Mar'22 | UT 1.3 | Pushti | Fail | |
-| 14 Mar'22 | UT 1.4 | Muhaimin |  | |
+| 14 Mar'22 | UT 1.4 | Muhaimin | Fail | |
 
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | 15 Mar'22 | UT 1.1 | Preet | Fail | |
 | 15 Mar'22 | UT 1.2 | Preet | Fail | |
 | 15 Mar'22 | UT 1.3 | Pushti | Fail | |
-| 15 Mar'22 | UT 1.4 | Muhaimin |  | |
+| 15 Mar'22 | UT 1.4 | Muhaimin | Fail | |
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | 15 Mar'22 | UT 1.1 | Preet | Pass | |
 | 15 Mar'22 | UT 1.2 | Preet | Fail | |
 | 15 Mar'22 | UT 1.3 | Pushti | Fail | |
-| 15 Mar'22 | UT 1.4 | Muhaimin |  | |
+| 15 Mar'22 | UT 1.4 | Muhaimin | Fail | |
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
 | 17 Mar'22 | UT 1.1 | Preet | Pass | |
 | 17 Mar'22 | UT 1.2 | Preet | Pass | |
 | 17 Mar'22 | UT 1.3 | Pushti | Pass | |
-| 17 Mar'22 | UT 1.4 | Muhaimin |  | |
+| 17 Mar'22 | UT 1.4 | Muhaimin | Pass | |
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
