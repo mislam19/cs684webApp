@@ -108,8 +108,8 @@
 | --- | --- | --- | --- | --- |
 | 14 Mar'22 | UT 1.1 | Preet | Fail | |
 | 14 Mar'22 | UT 1.2 | Preet | Fail | |
-| 14 Mar'22 | API 1.1| Pushti |  | |
-| 14 Mar'22 | API 1.2| Muhaimin |  | |
+| 14 Mar'22 | UT 1.3 | Pushti |  | |
+| 14 Mar'22 | UT 1.4 | Muhaimin |  | |
 
 
   </p>
