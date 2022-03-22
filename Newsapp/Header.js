@@ -121,7 +121,6 @@ const Header = () => {
       )}
       <Modal
         isOpen={modalIsOpen}
-        // onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
         style={customStyles}
         contentLabel="Settings"
