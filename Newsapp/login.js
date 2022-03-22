@@ -26,6 +26,30 @@ const Login = () => {
 			});
 	};
 
-	
+	return (
+		<div className={styles.container}>
+			<div className={styles.content}>
+				<span>Login</span>
+				<input
+					type='text'
+					placeholder='email'
+					onChange={(e) => setData({ ...data, email: e.target.value })}
+				/>
+				<input
+					type='password'
+					placeholder='password'
+					onChange={(e) => setData({ ...data, password: e.target.value })}
+				/>
+				<button
+					onClick={() => {
+						loginHandler();
+					}}>
+					Submit
+				</button>
+				<Link href={'/signup'}>Sign Up</Link>
+			</div>
+		</div>
+	);
+};
 
 export default Login;
