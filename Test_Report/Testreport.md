@@ -184,7 +184,11 @@
 | 22 Mar'22 | AT 1.4 | Pushti | Pass | GET /signin |  
 | 22 Mar'22 | AT 1.5 | Pushti | Pass | GET /getDetails |    
 | 22 Mar'22 | AT 1.6 | Preet | Pass | GET /updatePreference |
-| 22 Mar'22 | AT 1.7 | Muhaimin | Pass | POST /signout |     
+| 22 Mar'22 | AT 1.7 | Muhaimin | Pass | POST /signout |    
+
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 22 Mar'22 | API 1.4 | Preet | Pass | Signout API of Sprint 1 |   
    
    
   </p>
