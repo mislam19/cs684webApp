@@ -140,8 +140,8 @@
 | 19 Mar'22 | AT 1.1 | Preet | Fail | Check Password validation |
 | 19 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
 | 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
-| 19 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
-| 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
+| 19 Mar'22 | AT 1.4 | Pushti | Fail | GET /signin |  
+| 19 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
 | 19 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
 | 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
   </p>
