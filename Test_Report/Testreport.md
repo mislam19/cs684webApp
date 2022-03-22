@@ -147,54 +147,45 @@
 
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 19 Mar'22 | AT 1.1 | Preet |  | Check Password validation |
-| 19 Mar'22 | AT 1.2 | Preet |  | Check Email validation |
+| 19 Mar'22 | AT 1.1 | Preet | Fail | Check Password validation |
+| 19 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
 | 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
 | 19 Mar'22 | AT 1.4 | Pushti | | GET /signin |  
 | 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
-| 19 Mar'22 | AT 1.6 | Preet |  | GET /updatePreference |
+| 19 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
 | 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |  
   
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 19 Mar'22 | AT 1.1 | Preet |  | Check Password validation |
-| 19 Mar'22 | AT 1.2 | Preet |  | Check Email validation |
-| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
-| 19 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
-| 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
-| 19 Mar'22 | AT 1.6 | Preet |  | GET /updatePreference |
-| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
+| 20 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 20 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 20 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
+| 20 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
+| 20 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
+| 20 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 20 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 19 Mar'22 | AT 1.1 | Preet |  | Check Password validation |
-| 19 Mar'22 | AT 1.2 | Preet |  | Check Email validation |
-| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
-| 19 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
-| 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
-| 19 Mar'22 | AT 1.6 | Preet |  | GET /updatePreference |
-| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
+| 20 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 20 Mar'22 | AT 1.2 | Preet | Fail | Check Email validation |
+| 20 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
+| 20 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
+| 20 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
+| 20 Mar'22 | AT 1.6 | Preet | Fail | GET /updatePreference |
+| 20 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
  
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 19 Mar'22 | AT 1.1 | Preet |  | Check Password validation |
-| 19 Mar'22 | AT 1.2 | Preet |  | Check Email validation |
-| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
-| 19 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
-| 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
-| 19 Mar'22 | AT 1.6 | Preet |  | GET /updatePreference |
-| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
+| 21 Mar'22 | AT 1.1 | Preet | Pass | Check Password validation |
+| 21 Mar'22 | AT 1.2 | Preet | Pass | Check Email validation |
+| 21 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
+| 21 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
+| 21 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
+| 21 Mar'22 | AT 1.6 | Preet | Pass | GET /updatePreference |
+| 21 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
    
    
-| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
-| --- | --- | --- | --- | --- |
-| 19 Mar'22 | AT 1.1 | Preet |  | Check Password validation |
-| 19 Mar'22 | AT 1.2 | Preet |  | Check Email validation |
-| 19 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
-| 19 Mar'22 | AT 1.4 | Pushti |  | GET /signin |  
-| 19 Mar'22 | AT 1.5 | Pushti |  | GET /getDetails |    
-| 19 Mar'22 | AT 1.6 | Preet |  | GET /updatePreference |
-| 19 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |     
-   
+
   </p>
   </details>
