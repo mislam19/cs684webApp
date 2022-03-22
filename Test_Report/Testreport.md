@@ -181,7 +181,7 @@
 | 21 Mar'22 | AT 1.2 | Preet | Pass | Check Email validation |
 | 21 Mar'22 | AT 1.3 | Muhaimin |  | GET /index to check if server is running |
 | 21 Mar'22 | AT 1.4 | Pushti | Pass | GET /signin |  
-| 21 Mar'22 | AT 1.5 | Pushti | Fail | GET /getDetails |    
+| 21 Mar'22 | AT 1.5 | Pushti | Pass | GET /getDetails |    
 | 21 Mar'22 | AT 1.6 | Preet | Pass | GET /updatePreference |
 | 21 Mar'22 | AT 1.7 | Muhaimin |  | POST /signout |   
    
