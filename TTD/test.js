@@ -1,22 +1,20 @@
-import { emailValidate, validatePassword } from './helper.js';
+const helper = require("./helper.js");
+var express = require("express"); // (npm install --save express)
+const supertest = require("supertest");
+var app = require("./index.js");
 
-describe('Test Handlers', function () {
-	test('Check password validation [Correct password]', () => {
-		var password = validatePassword('P@ssword123');
-		expect(password).toEqual(true);
-	});
+describe("Test Handlers", function () {
+  test("Check password validation [Correct password]", () => {
+    var password = helper.validatePassword("P@ssword123");
+    expect(password).toEqual(true);
+  });
 
-	test('Check password validation [Incorrect password]', () => {
-		var password = validatePassword('password123');
-		expect(password).toEqual(true);
-	});
+  test("Check email validation", () => {
+    var email = helper.emailValidate("p@g.com");
+    expect(email).toEqual(true);
+  });
 
-	test('Check email validation', () => {
-		var email = emailValidate('p@g.com');
-		expect(email).toEqual(true);
-	});
-
-	test("GET /index to check if server is running", async () => {
+  test("GET /index to check if server is running", async () => {
     await supertest(app)
       .get("/index")
       .expect(200)
@@ -75,4 +73,44 @@ describe('Test Handlers', function () {
       });
   });
 
-});
+  test("GET /updatePreference", async () => {
+    await supertest(app)
+      .post("/updatePreference")
+      .send({
+        email: "preet123@google.com",
+        preferences: {
+          business: false,
+          entertainment: false,
+          general: true,
+          health: false,
+          science: false,
+          sports: false,
+          technology: false,
+        },
+      })
+      .expect(200)
+      .then((res) => {
+        expect(res.text).toBe(
+          JSON.stringify({
+            details: {
+              acknowledged: true,
+              modifiedCount: 0,
+              upsertedId: null,
+              upsertedCount: 0,
+              matchedCount: 1,
+            },
+            preferences: {
+              business: false,
+              entertainment: false,
+              general: true,
+              health: false,
+              science: false,
+              sports: false,
+              technology: false,
+            },
+          })
+        );
+      });
+  });
+
+  
