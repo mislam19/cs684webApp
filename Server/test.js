@@ -113,6 +113,35 @@ describe("Test Handlers", function () {
       });
   });
 
+
+   test("GET /index to check if server is running", async () => {
+    await supertest(app)
+      .get("/index")
+      .expect(200)
+      .then((res) => {
+        expect(res.text).toBe(JSON.stringify({ status: true }));
+      });
+  });
+
+
+    test("GET server is running", async () => {
+    await supertest(app)
+      .get("/index")
+      .expect(200)
+      .then((res) => {
+        expect(res.text).toBe(JSON.stringify({ status: true }));
+      });
+  });
+
+   test("GET ", async () => {
+    await supertest(app)
+      .get("/index")
+      .expect(200)
+      .then((res) => {
+        expect(res.text).toBe(JSON.stringify({ status: true }));
+      });
+  });
+
   test("POST /signout", async () => {
     await supertest(app)
       .post("/signout")
