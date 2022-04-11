@@ -5,8 +5,10 @@ const cors = require("cors");
 const User = require("./userSechma");
 const helper = require("./helper");
 const axios = require("axios");
+var morgan = require("morgan");
 
 const app = express();
+app.use(morgan("dev"));
 const port = process.env.PORT || 8080;
 
 var DB =
@@ -50,35 +52,31 @@ app.get("/news", async (req, res) => {
     });
 });
 
-app.get("/news/:email", async (req, res) => {
-  // categories = [business, entertainment, general, health, science, sports, technology]
+app.get("/news/:category", async (req, res) => {
+  var category = req.params.category;
+  var pageNo = req.query.pageNo;
   var API_KEY = process.env.API_KEY;
-  var email = req.params.email;
-  var details = await User.findOne({ email });
-  var data_json = [];
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}&pageSize=10&page=${pageNo}`;
+  res.header("Access-Control-Allow-Origin", "*");
 
-  if (details !== null) {
-    for (var x of Object.keys(details["userPreference"])) {
-      var category = details["userPreference"][x];
-      console.log(category);
-      if (category === true) {
-        var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}`;
-        res.header("Access-Control-Allow-Origin", "*");
-
-        axios.get(uri).then(function (response) {
-          var data = response.data;
-          data_json.push(data);
-        });
-      }
-    }
-    res.status(200).json(data_json);
-  } else res.status(401).json({ message: "User not found" });
+  axios
+    .get(uri)
+    .then(function (response) {
+      var data = response.data;
+      res.status(200).json({ data });
+    })
+    .catch(function (error) {
+      console.log(error);
+      res.status(400).json({ error });
+    });
 });
+
+
 
 app.post("/signup", async (req, res) => {
   helper.signUpHandler(req, res, User);
 });
-
 
 app.post("/signin", async (req, res) => {
   helper.signInHandler(req, res, User);
