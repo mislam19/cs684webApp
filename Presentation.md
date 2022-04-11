@@ -85,7 +85,7 @@
   
  <details><summary>Test cases S2</summary>
   <p>
-    | Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
+| Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- |
 | UX 1.1 | Valid username and valid password | Enter a valid Username, password and click on login button. | Successful login | Valid Url  and browser | Preet | Pass |
 | UX 1.2 | Valid username and invalid password | Enter a valid Username, invalid password and click on login button. | A pop-up message box to show invalid username/password. | Valid Url  and browser | Preet | Pass |
@@ -114,7 +114,8 @@
   
 <details><summary>Test cases S3</summary>
   <p>
-    | Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
+    
+| Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- |
 | UX 1.1 | Valid username and valid password | Enter a valid Username, password and click on login button. | Successful login | Valid Url  and browser | Preet | Pass |
 | UX 1.2 | Valid username and invalid password | Enter a valid Username, invalid password and click on login button. | A pop-up message box to show invalid username/password. | Valid Url  and browser | Preet | Pass |
