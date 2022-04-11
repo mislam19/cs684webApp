@@ -72,7 +72,32 @@ app.get("/news/:category", async (req, res) => {
     });
 });
 
+app.get("/news/email/:email", async (req, res) => {
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var API_KEY = process.env.API_KEY;
+  var email = req.params.email;
+  var details = await User.findOne({ email });
+  var data_json = [];
 
+  if (details !== null) {
+    const promises = Object.keys(details["userPreference"]).map(async (x) => {
+      var category = details["userPreference"][x];
+      var data = [];
+      if (category === true) {
+        var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${x}&apiKey=${API_KEY}&pageSize=100`;
+        res.header("Access-Control-Allow-Origin", "*");
+        data = await axios.get(uri);
+        data = data.data.articles;
+      }
+      return data;
+    });
+    const allArticles = await Promise.all(promises);
+    var articles = [].concat.apply([], allArticles);
+    res
+      .status(200)
+      .json({ data: { totalResults: articles.length, articles: articles } });
+  } else res.status(401).json({ message: "User not found" });
+});
 
 app.post("/signup", async (req, res) => {
   helper.signUpHandler(req, res, User);
