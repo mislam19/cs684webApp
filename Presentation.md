@@ -98,9 +98,13 @@
   <details> <summary> Test Cases S3</summary>
   <p>
     
-| Test Case ID# | Test case description | Test steps | Expected result | Prerequisites | Executed by | Pass/Fail |
-| --- | --- | --- | --- | --- | --- | --- |
-|   |   |   |   |   |   | 
+| Test Case ID# | Test case description | Test steps | Test Data | Expected result | Prerequisites | Executed by | Pass/Fail |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  IT 1.1 |   |   |   |   |  Preet  |   |
+|  IT 1.2 |   |   |   |   |  Preet  |   |
+|  IT 1.3 |   |   |   |   |  Pushti |   |
+|  IT 1.4 |   |   |   |   |  Pushti |   |
+|  IT 1.5 |   |   |   |   |  Muhaimin |   |
   </p> 
   </details> 
 
