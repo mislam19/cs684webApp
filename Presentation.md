@@ -100,11 +100,11 @@
     
 | Test Case ID# | Test case description | Test steps | Test Data | Expected result | Prerequisites | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|  IT 1.1 | Checking the login and homepage module.  | Enter the valid username and valid password  | Username: preet123@google.com                 Password: Password@123|   |   | Preet  |
-|  IT 1.2 |   |   |   |   |   | Preet  |
-|  IT 1.3 |   |   |   |   |   | Pushti  |
-|  IT 1.4 |   |   |   |   |   | Pushti  |
-|  IT 1.5 |   |   |   |   |   | Muhaimin  |
+|  IT 1.1 | Checking the login and homepage module.  | Enter the valid username and valid password  | Username: preet123@google.com                 Password: Password@123| User will directed signed in page   |  Valid url and browser | Preet  | Pass |
+|  IT 1.2 | Signup page and sign in page module.  | Enter the username and correct form of password.  | Username: preet123@google.com                 Password: Password@123  | New user is registered and should be able to login with new credentials  | Valid url and browser  | Preet  | |
+|  IT 1.3 |   |   |   |   |   | Pushti  | |
+|  IT 1.4 |   |   |   |   |   | Pushti  | |
+|  IT 1.5 |   |   |   |   |   | Muhaimin  | |
   </p> 
   </details> 
 
