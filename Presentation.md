@@ -291,7 +291,11 @@
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 14 Mar'22 | UT 1.1 | Preet | Fail |  | 
+|  | IT 1.1 |  |  |  | 
+|  | IT 1.2 |  |  |  | 
+|  | IT 1.3 |  |  |  | 
+|  | IT 1.4 |  |  |  | 
+|  | IT 1.5 |  |  |  |    
    
    </p>
   </details>
