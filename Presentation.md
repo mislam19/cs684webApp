@@ -295,7 +295,7 @@
 | 8 Apr'22 | IT 1.2 | Preet | Fail   |  | 
 | 8 Apr'22 | IT 1.3 | Pushti | Fail  |  | 
 | 8 Apr'22 | IT 1.4 | Pushti | Fail  |  | 
-| 8 Apr'22 | IT 1.5 | Pushti | Fail  |  |    
+| 8 Apr'22 | IT 1.5 | Muhaimin | Fail  |  |    
    
    </p>
   </details>
