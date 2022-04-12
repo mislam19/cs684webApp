@@ -103,8 +103,8 @@
 |  IT 1.1 | Checking the login and homepage module.  | Enter the valid username and valid password  | Username: preet123@google.com                 Password: Password@123| User will directed signed in page   |  Valid url and browser | Preet  | Pass |
 |  IT 1.2 | Signup page and sign in page module.  | Enter the username and correct form of password.  | Username: demo123@google.com                 Password: Demo@123  | New user is registered and should be able to login with new credentials  | Valid url and browser  | Pushti  | Pass |
 |  IT 1.3 | Setting modal and database integration  |  Select the few category from setting modal  |  Check mark business,technology & sports category |  Database will reflect the changes in user preferences   | Login credentials | Preet   | Pass |
-|  IT 1.4 | Setting modal and home page integration  | Select the user prefrence category from setting modal  | Check mark technology & sports category  | Home page will reflect the changes based on user preferences   |   | Pushti  | Pass |
-|  IT 1.5 | Pagination with home and other categories in descending order with most recent first  | Select the user prefrence category ,paginate through home page with user selected category.   | Select the user prefrence category from setting modal  | Paginate on home page in descending order with most recent news  |   | Muhaimin  | Pass |
+|  IT 1.4 | Setting modal and home page integration  | Select the user prefrence category from setting modal  | Check mark technology & sports category  | Home page will reflect the changes based on user preferences   | Login credentials  | Pushti  | Pass |
+|  IT 1.5 | Pagination with home and other categories in descending order with most recent first  | Select the user prefrence category ,paginate through home page with user selected category.   | Select the user prefrence category from setting modal  | Paginate on home page in descending order with most recent news  | Login credential  | Muhaimin  | Pass |
   </p> 
   </details> 
 
