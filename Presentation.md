@@ -104,7 +104,7 @@
 |  IT 1.2 | Signup page and sign in page module.  | Enter the username and correct form of password.  | Username: demo123@google.com                 Password: Demo@123  | New user is registered and should be able to login with new credentials  | Valid url and browser  | Pushti  | Pass |
 |  IT 1.3 | Setting modal and database integration  |  Select the few category from setting modal  |  Check mark business,technology & sports category |  Database will reflect the changes in user preferences   | Login credentials | Preet   | Pass |
 |  IT 1.4 | Setting modal and home page integration  | Select the user prefrence category from setting modal  | Check mark technology & sports category  | Home page will reflect the changes based on user preferences   |   | Pushti  | Pass |
-|  IT 1.5 |   |   |   |   |   | Muhaimin  | |
+|  IT 1.5 | Pagination with home and other categories in descending order with most recent first  | Select the user prefrence category ,paginate through home page with user selected category.   | Select the user prefrence category from setting modal  |   |   | Muhaimin  | |
   </p> 
   </details> 
 
@@ -291,11 +291,35 @@
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- |
-| 8 Apr'22 | IT 1.1 | Preet | Fail   |  | 
-| 8 Apr'22 | IT 1.2 | Preet | Fail   |  | 
-| 8 Apr'22 | IT 1.3 | Pushti | Fail  |  | 
+| 8 Apr'22 | IT 1.1 | Preet | Pass   |  | 
+| 8 Apr'22 | IT 1.2 | Pushti | Pass   |  | 
+| 8 Apr'22 | IT 1.3 | Preet | Fail  |  | 
 | 8 Apr'22 | IT 1.4 | Pushti | Fail  |  | 
-| 8 Apr'22 | IT 1.5 | Muhaimin | Fail  |  |    
+| 8 Apr'22 | IT 1.5 | Muhaimin | Fail  |  |  
+   
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 9 Apr'22 | IT 1.1 | Preet | Pass   |  | 
+| 9 Apr'22 | IT 1.2 | Pushti | Pass   |  | 
+| 9 Apr'22 | IT 1.3 | Preet | Pass  |  | 
+| 9 Apr'22 | IT 1.4 | Pushti | Fail  |  | 
+| 9 Apr'22 | IT 1.5 | Muhaimin | Fail  |  |    
+  
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 10 Apr'22 | IT 1.1 | Preet | Pass   |  | 
+| 10 Apr'22 | IT 1.2 | Pushti | Pass   |  | 
+| 10 Apr'22 | IT 1.3 | Preet | Pass  |  | 
+| 10 Apr'22 | IT 1.4 | Pushti | Fail  |  | 
+| 10 Apr'22 | IT 1.5 | Muhaimin | Fail  |  |  
+  
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| 11 Apr'22 | IT 1.1 | Preet | Pass   |  | 
+| 11 Apr'22 | IT 1.2 | Pushti | Pass   |  | 
+| 11 Apr'22 | IT 1.3 | Preet | Pass  |  | 
+| 11 Apr'22 | IT 1.4 | Pushti | Pass  |  | 
+| 11 Apr'22 | IT 1.5 | Muhaimin | Pass  |  |    
    
    </p>
   </details>
