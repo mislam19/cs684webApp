@@ -12,7 +12,7 @@
 | Functionality of new landing page | Manual testing | Take the proper URL and landing page should be displayed as per requirements |  Preet  | 14-18 Mar'22  | Pass |  
 | Functionality of settings modal | Manual testing | Selection of catergories  |  Pushti & Muhaimin | 14-18 Mar'22  | Pass |  
 | Unit Testing | Automated testing (JEST)| Testing the functionality of code for test.js file |    | 19-22 Mar'22  | Pass |
-| Integration Testing | Automated/Manual |  |    |   |  | 
+| Integration Testing | Automated/Manual |  <li>item1</li> <li>item1</li> |    |   |  | 
 | Regression Testing | Automated/Manual |  |    |   |  |   
 
 </p>
