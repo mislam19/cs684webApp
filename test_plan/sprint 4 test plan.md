@@ -2,7 +2,7 @@
 <details><summary>Sprint 4</summary>
 <p>
   
- Feature to be tested | Approach | Testing task | Responsibilities | Schedule | Pass/Fail |
+ Feature to be tested | Approach | Test Steps | Responsibilities | Schedule | Pass/Fail |
 | --- | --- | --- | --- | --- | --- |
 | Login username and password functionality.| Manual testing | Enter username and password in the login form | Preet will perform manual testing on UX 1 | 15-18 feb'22 | Pass |
 | Functionality of sign up page and the requirements fo different fields.| Manual testing | Click on signup page and try signing up with username and password | Pushti will perform the testing on sign up page and \n the requirements | 15-18 feb'22 | Pass  |
