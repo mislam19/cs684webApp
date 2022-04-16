@@ -13,7 +13,7 @@
 | Functionality of settings modal | Manual testing | Selection of catergories  |  Pushti & Muhaimin | 14-18 Mar'22  | Pass |  
 | Unit Testing | Automated testing (JEST)| Testing the functionality of code for test.js file |    | 19-22 Mar'22  | Pass |
 | Integration Testing | Automated/Manual |  |    |   |  | 
-  
+| Regression Testing | Automated/Manual |  |    |   |  |   
 
 </p>
 </details>
