@@ -13,7 +13,7 @@
 | Functionality of settings modal | Manual testing | Selection of catergories  |  Pushti & Muhaimin | 14-18 Mar'22  | Pass |  
 | Unit Testing | Automated testing (JEST)| Testing the functionality of code for test.js file |    | 19-22 Mar'22  | Pass |
 | Integration Testing | Automated/Manual |  <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1 requirements are </li> <li>item2</li> |    |   |  | 
-| Regression Testing | Automated/Manual | <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1 requirements are </li> <li>item2</li> |    |   |  |   
+| Regression Testing | Automated/Manual | <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1 requirements are valid. </li> <li>Check whether Sprint 2 requirements are valid. </li> |    |   |  |   
 
 </p>
 </details>
