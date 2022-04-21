@@ -12,7 +12,7 @@
 | Functionality of new landing page | Manual testing | Take the proper URL and landing page should be displayed as per requirements |  Preet  | 14-18 Mar'22  | Pass |  
 | Functionality of settings modal | Manual testing | Selection of catergories  |  Pushti & Muhaimin | 14-18 Mar'22  | Pass |  
 | Unit Testing | Automated testing (JEST)| Testing the functionality of code for test.js file |    | 19-22 Mar'22  | Pass |
-| Integration Testing | Automated/Manual |  <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1 requirements are </li> <li>item2</li> |    |   |  | 
+| Integration Testing | Automated/Manual |  <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1/2/3/4 requirements are valid </li> <li>Check whether all the requirements are valid for the latest git commits </li> |    |   |  | 
 | Regression Testing | <li> Automated Unit tests for password checking and sign up/sign in functionality </li> <li> Manual tests for complex functioalities for example searching, selecting different categories </li> <li> Manual Testing for API tests with postman. </li> | <li>Unit Testing and functionality testing.</li> <li>Check whether Sprint 1 requirements are valid. </li> <li>Check whether Sprint 2 requirements are valid. </li> <li>Check whether Sprint 3 requirements are valid. </li> <li>Check whether Sprint 4 requirements are valid. </li> |    |   |  |   
 
 </p>
