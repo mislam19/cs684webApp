@@ -1,5 +1,5 @@
 # Testplan
-<details><summary>Sprint 3</summary>
+<details><summary>Sprint 4</summary>
 <p>
   
  Feature to be tested | Approach | Testing task | Responsibilities | Schedule | Pass/Fail |
