@@ -398,15 +398,15 @@
 | 25 Apr'22 | RT 16 | Pushti | Pass   |  | 
 | 25 Apr'22 | RT 17 | Pushti | Pass   |  |    
 | 25 Apr'22 | RT 18 | Pushti | Pass   |  |   
-| 25 Apr'22 | RT 19 |  | Pass   |  | 
-| 25 Apr'22 | RT 20 |  | Pass   |  | 
-| 25 Apr'22 | RT 21 |  | Pass   |  |    
-| 25 Apr'22 | RT 22 |  | Fail   |  |   
-| 25 Apr'22 | RT 23 |  | Fail   |  | 
-| 25 Apr'22 | RT 24 |  | Fail   |  | 
-| 25 Apr'22 | RT 25 |  | Fail   |  |    
-| 25 Apr'22 | RT 26 |  | Fail   |  | 
-| 25 Apr'22 | RT 27 |  | Fail   |  | 
+| 25 Apr'22 | RT 19 | Preet | Pass   |  | 
+| 25 Apr'22 | RT 20 | Preet  | Pass   |  | 
+| 25 Apr'22 | RT 21 | Preet  | Pass   |  |    
+| 25 Apr'22 | RT 22 | Preet  | Fail   |  |   
+| 25 Apr'22 | RT 23 | Preet  | Fail   |  | 
+| 25 Apr'22 | RT 24 | Preet  | Fail   |  | 
+| 25 Apr'22 | RT 25 | Preet  | Fail   |  |    
+| 25 Apr'22 | RT 26 | Preet  | Fail   |  | 
+| 25 Apr'22 | RT 27 | Preet  | Fail   |  | 
 
    
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
@@ -428,15 +428,15 @@
 | 26 Apr'22 | RT 16 | Pushti | Pass   |  | 
 | 26 Apr'22 | RT 17 | Pushti | Pass   |  |    
 | 26 Apr'22 | RT 18 | Pushti | Pass   |  |   
-| 26 Apr'22 | RT 19 |  | Pass   |  | 
-| 26 Apr'22 | RT 20 |  | Pass   |  | 
-| 26 Apr'22 | RT 21 |  | Pass   |  |    
-| 26 Apr'22 | RT 22 |  |    |  |   
-| 26 Apr'22 | RT 23 |  |    |  | 
-| 26 Apr'22 | RT 24 |  |    |  | 
-| 26 Apr'22 | RT 25 |  |    |  |    
-| 26 Apr'22 | RT 26 |  |    |  | 
-| 26 Apr'22 | RT 27 |  |    |  |    
+| 26 Apr'22 | RT 19 | Preet  | Pass   |  | 
+| 26 Apr'22 | RT 20 | Preet  | Pass   |  | 
+| 26 Apr'22 | RT 21 | Preet  | Pass   |  |    
+| 26 Apr'22 | RT 22 | Preet  | Pass   |  |   
+| 26 Apr'22 | RT 23 | Preet  | Pass   |  | 
+| 26 Apr'22 | RT 24 | Preet  | Pass   |  | 
+| 26 Apr'22 | RT 25 | Preet  | Pass   |  |    
+| 26 Apr'22 | RT 26 | Preet  | Pass   |  | 
+| 26 Apr'22 | RT 27 | Preet  | Pass   |  |    
    
    
    
