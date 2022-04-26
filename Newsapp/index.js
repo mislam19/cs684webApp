@@ -1,136 +1,175 @@
-import { useEffect, useState } from "react";
-import _ from "lodash";
+require("dotenv").config();
+const express = require("express");
+const mongoose = require("mongoose");
+const cors = require("cors");
+const User = require("./userSechma");
+const helper = require("./helper");
+const axios = require("axios");
+var morgan = require("morgan");
 
-import styles from "../styles/Home.module.scss";
-import { BsChevronLeft, BsChevronRight, BsSearch } from "react-icons/bs";
+const app = express();
+app.use(morgan("dev"));
+const port = process.env.PORT || 8080;
 
-export default function Home() {
-  const [articles, setArticles] = useState(null);
-  const [userAuth, setUserAuth] = useState(null);
-  const [pageNo, setPageNo] = useState(1);
-  const [searchQuery, setSearchQuery] = useState("");
-  // searchbar
+var DB =
+  "mongodb+srv://preet123:preet123@cluster0.qeh1a.mongodb.net/newsapp?retryWrites=true&w=majority";
+mongoose
+  .connect(DB, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .catch((e) => {
+    console.log(e);
+  });
 
-  const [totalPages, setTotalPages] = useState(0);
+app.use(express.json());
+app.use(cors());
 
-  const getArticles = () => {
-    var uri = `http://localhost:8080/news`;
-    if (getAuth() !== null)
-      uri = `http://localhost:8080/news/email/${getAuth().email}`;
-    else uri = `http://localhost:8080/news`;
-    fetch(uri)
-      .then((res) => res.json())
-      .then((data) => {
-        setTotalPages(Math.ceil(data.data.totalResults / 10));
-        setArticles(data.data.articles);
-      });
-  };
+app.get("/", async (req, res) => {
+  res.send("Hello World");
+});
 
-  const getAuth = () => {
-    if (typeof window !== "undefined")
-      if (localStorage.getItem("newsAppCred") !== null) {
-        var authVar = JSON.parse(localStorage.getItem("newsAppCred"));
-        return authVar;
-      } else {
-        setUserAuth(null);
-        return null;
+app.get("/index", async (req, res) => {
+  res.status(200).json({ status: true });
+});
+
+app.get("/news", async (req, res) => {
+  var category = "general";
+  var API_KEY = process.env.API_KEY;
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}`;
+  res.header("Access-Control-Allow-Origin", "*");
+
+  axios
+    .get(uri)
+    .then(function (response) {
+      var data = response.data;
+      res.status(200).json({ data });
+    })
+    .catch(function (error) {
+      res.status(400).json({ error });
+    });
+});
+
+
+app.get("/search/:query", async (req, res) => {
+  var query = req.params.query;
+  var API_KEY = process.env.API_KEY;
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var uri = `https://newsapi.org/v2/everything?q=${query}&pageSize=10&apiKey=${API_KEY}`;
+  res.header("Access-Control-Allow-Origin", "*");
+
+  axios
+    .get(uri)
+    .then(function (response) {
+      var data = response.data;
+      res.status(200).json({ data });
+    })
+    .catch(function (error) {
+      res.status(400).json({ error });
+    });
+});
+
+
+app.get("/category/:category", async (req, res) => {
+  var category = req.params.category;
+  var pageNo = req.query.pageNo;
+  var API_KEY = process.env.API_KEY;
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}&pageSize=10&page=${pageNo}`;
+  res.header("Access-Control-Allow-Origin", "*");
+
+  axios
+    .get(uri)
+    .then(function (response) {
+      var data = response.data;
+      res.status(200).json({ data });
+    })
+    .catch(function (error) {
+      console.log(error);
+      res.status(400).json({ error });
+    });
+});
+
+app.get("/news/email/:email", async (req, res) => {
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var API_KEY = process.env.API_KEY;
+  var email = req.params.email;
+  var details = await User.findOne({ email });
+  var data_json = [];
+
+  if (details !== null) {
+    const promises = Object.keys(details["userPreference"]).map(async (x) => {
+      var category = details["userPreference"][x];
+      var data = [];
+      if (category === true) {
+        var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${x}&apiKey=${API_KEY}&pageSize=100`;
+        res.header("Access-Control-Allow-Origin", "*");
+        data = await axios.get(uri);
+        data = data.data.articles;
       }
-  };
+      return data;
+    });
+    const allArticles = await Promise.all(promises);
+    var articles = [].concat.apply([], allArticles);
+    res
+      .status(200)
+      .json({ data: { totalResults: articles.length, articles: articles } });
+  } else res.status(401).json({ message: "User not found" });
+});
 
-  useEffect(() => {
-    getAuth();
-    setPageNo(1);
-    getArticles();
-  }, []);
-
-  function parseISOString(s) {
-    var b = s.split(/\D+/);
-    return new Date(Date.UTC(b[0], --b[1], b[2], b[3], b[4], b[5], b[6]));
+const express = require('express');
+const data = require('./data');
+const app = express();
+app.use('/', (req, res, next) => {
+const filters = req.query;
+const filteredUsers = data.filter(user => {
+  let isValid = true;
+  for (key in filters) {
+  console.log(key, user[key], filters[key]);
+  isValid = isValid && user[key] == filters[key];
   }
+  return isValid;
+});
+res.send(filteredUsers);
+});
 
-  function paginate(arr, size) {
-    return arr.reduce((acc, val, i) => {
-      let idx = Math.floor(i / size);
-      let page = acc[idx] || (acc[idx] = []);
-      page.push(val);
-      return acc;
-    }, []);
-  }
- 
-  function handleSearch(e) {
-    if (e.length != 0) {
-      var uri = `http://localhost:8080/search/${e}`;
-      fetch(uri)
-        .then((res) => res.json())
-        .then((data) => {
-          setTotalPages(Math.ceil(data.data.totalResults / 10));
-          setArticles(data.data.articles);
-        });
-    } else {
-      getArticles();
-    }
-  }
- 
-  return (
-    <div className={styles.container}>
-      {/*  */}
-      <div className={styles.searchbar}>
-        <input
-          type="search"
-          value={searchQuery}
-          placeholder="Google OR Dow OR Kardasians"
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-        <span
-          className={styles.searchButton}
-          onClick={() => {
-            handleSearch(searchQuery);
-          }}
-        >
-          <BsSearch />
-        </span>
-      </div>
-      {/*  */}
-      <div className={styles.articles}>
-        {articles !== null &&
-          paginate(articles, 10)
-            [pageNo - 1].sort((a, b) => {
-              var date1 = new Date(a.publishedAt);
-              var date2 = new Date(b.publishedAt);
-              if (date1.getTime() < date2.getTime()) return 1;
-              if (date1.getTime() > date2.getTime()) return -1;
-              return 0;
-            })
-            .map((item, index) => (
-              <div className={styles.article} key={index}>
-                <h3>{item.title}</h3>
-                <span>{`${parseISOString(item.publishedAt).getFullYear()}-${
-                  parseISOString(item.publishedAt).getMonth() + 1
-                }-${parseISOString(item.publishedAt).getDate()}`}</span>
-                <p>{item.description}</p>
-              </div>
-            ))}
-      </div>
+app.listen(5000, () => {
+console.log('Server started!');
+});
 
-      <div className={styles.pagination}>
-        <BsChevronLeft className={styles.icon} />
-        {_.times(totalPages, (i) => {
-          if (i < 20)
-            return (
-              <span
-                key={i}
-                className={pageNo == i + 1 && styles.active}
-                onClick={() => {
-                  setPageNo(i + 1);
-                  getArticles(i + 1);
-                }}
-              >
-                {i + 1}
-              </span>
-            );
-        })}
-        <BsChevronRight className={styles.icon} />
-      </div>
-    </div>
+app.post("/signup", async (req, res) => {
+  helper.signUpHandler(req, res, User);
+});
+
+app.post("/signin", async (req, res) => {
+  helper.signInHandler(req, res, User);
+});
+
+app.post("/updatePreference", async (req, res) => {
+  var email = req.body.email;
+  var preferences = req.body.preferences;
+  const details = await User.updateOne(
+    { email },
+    { $set: { userPreference: preferences } }
   );
-}
+  res.status(200).json({ details, preferences });
+});
+
+app.get("/getDetails", async (req, res) => {
+  var email = req.query.email;
+  const details = await User.findOne({ email: email });
+  res.status(200).json(details);
+});
+
+app.post("/signout", async (req, res) => {
+  const { email } = req.body;
+  const userLogin = await User.findOne({ email: email });
+  if (userLogin) res.status(200).json({ message: "User is logout" });
+});
+
+app.listen(port, () => {
+  console.log(`listening to port: ${port}`);
+});
+
+module.exports = app;
