@@ -56,7 +56,7 @@ export default function Home() {
       return acc;
     }, []);
   }
-// 
+ 
   function handleSearch(e) {
     if (e.length != 0) {
       var uri = `http://localhost:8080/search/${e}`;
@@ -70,8 +70,27 @@ export default function Home() {
       getArticles();
     }
   }
-// 
  
+  return (
+    <div className={styles.container}>
+      {/*  */}
+      <div className={styles.searchbar}>
+        <input
+          type="search"
+          value={searchQuery}
+          placeholder="Google OR Dow OR Kardasians"
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        <span
+          className={styles.searchButton}
+          onClick={() => {
+            handleSearch(searchQuery);
+          }}
+        >
+          <BsSearch />
+        </span>
+      </div>
+      {/*  */}
       <div className={styles.articles}>
         {articles !== null &&
           paginate(articles, 10)
