@@ -381,15 +381,15 @@
   
 | Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
 | --- | --- | --- | --- | --- | 
-| 25 Apr'22 | RT 1 |  | Pass   |  |   
-| 25 Apr'22 | RT 2 |  | Pass   |  | 
-| 25 Apr'22 | RT 3 |  | Pass   |  | 
-| 25 Apr'22 | RT 4 |  | Pass   |  |    
-| 25 Apr'22 | RT 5 |  | Pass   |  |   
-| 25 Apr'22 | RT 6 |  | Pass   |  | 
-| 25 Apr'22 | RT 7 |  | Pass   |  | 
-| 25 Apr'22 | RT 8 |  | Pass   |  |    
-| 25 Apr'22 | RT 9 |  | Pass   |  |   
+| 25 Apr'22 | RT 1 | Muhaimin | Pass   |  |   
+| 25 Apr'22 | RT 2 | Muhaimin | Pass   |  | 
+| 25 Apr'22 | RT 3 | Muhaimin | Pass   |  | 
+| 25 Apr'22 | RT 4 | Muhaimin | Pass   |  |    
+| 25 Apr'22 | RT 5 | Muhaimin | Pass   |  |   
+| 25 Apr'22 | RT 6 | Muhaimin | Pass   |  | 
+| 25 Apr'22 | RT 7 | Muhaimin | Pass   |  | 
+| 25 Apr'22 | RT 8 | Muhaimin | Pass   |  |    
+| 25 Apr'22 | RT 9 | Muhaimin | Pass   |  |   
 | 25 Apr'22 | RT 10 |  | Pass   |  | 
 | 25 Apr'22 | RT 12 |  | Pass   |  | 
 | 25 Apr'22 | RT 13 |  | Pass   |  |    
