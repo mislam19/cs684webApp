@@ -55,15 +55,15 @@
 
 | Test Case ID# | Test case description | Test steps | Test data | Expected result | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- |
-| RT 1 | Validation of login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com Password: Password@123 | Successful login |   | Pass |   
-| RT 2 | Validation of login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password:  Anything@123 | Unsuccessful login |   | Pass | 
-| RT 3 | API endpoint login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com  Password:  Password@123  | API response code 200 |   | Pass | 
-| RT 4 | API endpoint login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password: Anything@123 | API response code is 401 |   | Pass |    
-| RT 5 | Validation of signup button functionality | Click on Signup button. | signup link/button | Directed to the signup page |   | Pass |    
-| RT 6 | Validation of signup page functionality | Enter username with atleast 8 string long | username: witchers@gmail.com | Valid username |   | Pass |    
-| RT 7 | Validation of signup page functionality | Enter username with no more than 7 string | username: witcher  | Invalid form of username |   | Pass | 
-| RT 8 | Validation of signup page functionality | Password should not have spaces and atleast 8 character long ,One upper case, one lower case, one special character | Password: Witcher@123 | Strong password  |   | Pass | 
-| RT 9 | Validation of signup page functionality | Password should have spaces and atleast 8 character long , one lower case | Password: witcher 123 | Is not strong password |   | Pass |  
+| RT 1 | Validation of login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com Password: Password@123 | Successful login | Muhaimin  | Pass |   
+| RT 2 | Validation of login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password:  Anything@123 | Unsuccessful login | Muhaimin  | Pass | 
+| RT 3 | API endpoint login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com  Password:  Password@123  | API response code 200 | Muhaimin  | Pass | 
+| RT 4 | API endpoint login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password: Anything@123 | API response code is 401 | Muhaimin  | Pass |    
+| RT 5 | Validation of signup button functionality | Click on Signup button. | signup link/button | Directed to the signup page | Muhaimin  | Pass |    
+| RT 6 | Validation of signup page functionality | Enter username with atleast 8 string long | username: witchers@gmail.com | Valid username | Muhaimin  | Pass |    
+| RT 7 | Validation of signup page functionality | Enter username with no more than 7 string | username: witcher  | Invalid form of username | Muhaimin  | Pass | 
+| RT 8 | Validation of signup page functionality | Password should not have spaces and atleast 8 character long ,One upper case, one lower case, one special character | Password: Witcher@123 | Strong password  | Muhaimin  | Pass | 
+| RT 9 | Validation of signup page functionality | Password should have spaces and atleast 8 character long , one lower case | Password: witcher 123 | Is not strong password | Muhaimin  | Pass |  
 | RT 10 | Validation of signup page functionality | Password and confirm password field should be entered with same value. | Password: Witcher@123 Confirm: Witcher@123 | Password will be accepted |   | Pass |   
 | RT 11 | Validation of signup page functionality | Password and confirm password field should be entered with different value. | Password: Witcher@123 Confirm: Witcher@23 | Password will not be accepted |   | Pass | 
 | RT 12 | Validation of signup page functionality | Enter every field with their respective parameters and click on submit button /link | Username: witchers@gmail.com password: Witchers@123 Confirm password : Witchers@123  | User will be signup. |   | Pass |  
