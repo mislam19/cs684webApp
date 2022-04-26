@@ -39,7 +39,7 @@ app.get("/news", async (req, res) => {
   // categories = [business, entertainment, general, health, science, sports, technology]
   var uri = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${API_KEY}`;
   res.header("Access-Control-Allow-Origin", "*");
-  
+
   axios
     .get(uri)
     .then(function (response) {
@@ -50,6 +50,26 @@ app.get("/news", async (req, res) => {
       res.status(400).json({ error });
     });
 });
+
+
+app.get("/search/:query", async (req, res) => {
+  var query = req.params.query;
+  var API_KEY = process.env.API_KEY;
+  // categories = [business, entertainment, general, health, science, sports, technology]
+  var uri = `https://newsapi.org/v2/everything?q=${query}&pageSize=10&apiKey=${API_KEY}`;
+  res.header("Access-Control-Allow-Origin", "*");
+
+  axios
+    .get(uri)
+    .then(function (response) {
+      var data = response.data;
+      res.status(200).json({ data });
+    })
+    .catch(function (error) {
+      res.status(400).json({ error });
+    });
+});
+
 
 app.get("/category/:category", async (req, res) => {
   var category = req.params.category;
@@ -106,28 +126,6 @@ app.post("/signin", async (req, res) => {
   helper.signInHandler(req, res, User);
 });
 
-const searchData = (pattern) => {
-  if (!pattern) {
-    setData(books);
-    return;
-  }
-
-  const fuse = new Fuse(data, {
-  keys: ["title", "author"],
-});
-
-const matches = [];
-if (!result.length) {
-  setData([]);
-} else {
-  result.forEach(({item}) => {
-    matches.push(item);
-  });
-  setData(matches);
-}
-
-
-
 app.post("/updatePreference", async (req, res) => {
   var email = req.body.email;
   var preferences = req.body.preferences;
@@ -137,15 +135,6 @@ app.post("/updatePreference", async (req, res) => {
   );
   res.status(200).json({ details, preferences });
 });
-
-if (!result.length) {
-  setData([]);
-} else {
-  result.forEach(({item}) => {
-    matches.push(item);
-  });
-  setData(matches);
-}
 
 app.get("/getDetails", async (req, res) => {
   var email = req.query.email;
