@@ -390,14 +390,14 @@
 | 25 Apr'22 | RT 7 | Muhaimin | Pass   |  | 
 | 25 Apr'22 | RT 8 | Muhaimin | Pass   |  |    
 | 25 Apr'22 | RT 9 | Muhaimin | Pass   |  |   
-| 25 Apr'22 | RT 10 |  | Pass   |  | 
-| 25 Apr'22 | RT 12 |  | Pass   |  | 
-| 25 Apr'22 | RT 13 |  | Pass   |  |    
-| 25 Apr'22 | RT 14 |  | Pass   |  |   
-| 25 Apr'22 | RT 15 |  | Pass   |  | 
-| 25 Apr'22 | RT 16 |  | Pass   |  | 
-| 25 Apr'22 | RT 17 |  | Pass   |  |    
-| 25 Apr'22 | RT 18 |  | Pass   |  |   
+| 25 Apr'22 | RT 10 | Pushti | Pass   |  | 
+| 25 Apr'22 | RT 12 | Pushti | Pass   |  | 
+| 25 Apr'22 | RT 13 | Pushti | Pass   |  |    
+| 25 Apr'22 | RT 14 | Pushti | Pass   |  |   
+| 25 Apr'22 | RT 15 | Pushti | Pass   |  | 
+| 25 Apr'22 | RT 16 | Pushti | Pass   |  | 
+| 25 Apr'22 | RT 17 | Pushti | Pass   |  |    
+| 25 Apr'22 | RT 18 | Pushti | Pass   |  |   
 | 25 Apr'22 | RT 19 |  | Pass   |  | 
 | 25 Apr'22 | RT 20 |  | Pass   |  | 
 | 25 Apr'22 | RT 21 |  | Pass   |  |    
@@ -420,14 +420,14 @@
 | 26 Apr'22 | RT 7 | Muhaimin | Pass   |  | 
 | 26 Apr'22 | RT 8 | Muhaimin | Pass   |  |    
 | 26 Apr'22 | RT 9 | Muhaimin | Pass   |  |   
-| 26 Apr'22 | RT 10 |  | Pass   |  | 
-| 26 Apr'22 | RT 12 |  | Pass   |  | 
-| 26 Apr'22 | RT 13 |  | Pass   |  |    
-| 26 Apr'22 | RT 14 |  | Pass   |  |   
-| 26 Apr'22 | RT 15 |  | Pass   |  | 
-| 26 Apr'22 | RT 16 |  | Pass   |  | 
-| 26 Apr'22 | RT 17 |  | Pass   |  |    
-| 26 Apr'22 | RT 18 |  | Pass   |  |   
+| 26 Apr'22 | RT 10 | Pushti | Pass   |  | 
+| 26 Apr'22 | RT 12 | Pushti | Pass   |  | 
+| 26 Apr'22 | RT 13 | Pushti | Pass   |  |    
+| 26 Apr'22 | RT 14 | Pushti | Pass   |  |   
+| 26 Apr'22 | RT 15 | Pushti | Pass   |  | 
+| 26 Apr'22 | RT 16 | Pushti | Pass   |  | 
+| 26 Apr'22 | RT 17 | Pushti | Pass   |  |    
+| 26 Apr'22 | RT 18 | Pushti | Pass   |  |   
 | 26 Apr'22 | RT 19 |  | Pass   |  | 
 | 26 Apr'22 | RT 20 |  | Pass   |  | 
 | 26 Apr'22 | RT 21 |  | Pass   |  |    
