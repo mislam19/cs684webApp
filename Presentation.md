@@ -130,18 +130,26 @@
 
 | Test Case ID# | Test case description | Test steps | Test data | Expected result | Executed by | Pass/Fail |
 | --- | --- | --- | --- | --- | --- | --- |
-| RT 1 | Validation of login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com Password:   Password@123 | Successful login |   | Pass |   
-| RT 2 | Validation of login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password: Anything@123 | Unsuccessful login |   | Pass | 
-| RT 3 | Validation of signup button functionality | Click on Signup button. | signup link/button | Directed to the signup page |   | Pass |    
-| RT 4 | Validation of signup page functionality | Enter username with atleast 8 string long | username: witchers@gmail.com | Valid username |   | Pass |    
-| RT 5 | Validation of signup page functionality | Enter username with no more than 7 string | username: witcher  | Invalid form of username |   | Pass | 
-| RT 6 | Validation of signup page functionality | Password should not have spaces and atleast 8 character long ,One upper case, one lower case, one special character | Password: Witcher@123 | Strong password  |   | Pass | 
-| RT 7 | Validation of signup page functionality | Password should have spaces and atleast 8 character long , one lower case | Password: witcher 123 | Is not strong password |   | Pass |  
-| RT 8 | Validation of signup page functionality | Password and confirm password field should be entered with same value. | Password: Witcher@123 Confirm: Witcher@123 | Password will be accepted |   | Pass |   
-| RT 9 | Validation of signup page functionality | Password and confirm password field should be entered with different value. | Password: Witcher@123 Confirm: Witcher@23 | Password will not be accepted |   | Pass | 
-| RT 10 | Validation of signup page functionality | Enter every field with their respective parameters and click on submit button /link | Username: witchers@gmail.com password: Witchers@123 Confirm password : Witchers@123  | User will be signup. |   | Pass |  
+| RT 1 | Validation of login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com Password: Password@123 | Successful login |   | Pass |   
+| RT 2 | Validation of login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password:  Anything@123 | Unsuccessful login |   | Pass | 
+| RT 3 | API endpoint login functionality | Enter a valid Username, valid password and click on login button. | username: preet123@google.com  Password:  Password@123  | API response code 200 |   | Pass | 
+| RT 4 | API endpoint login functionality | Enter a invalid Username, invalid password and click on login button. | username: preet@google.com Password: Anything@123 | API response code is 401 |   | Pass |    
+| RT 5 | Validation of signup button functionality | Click on Signup button. | signup link/button | Directed to the signup page |   | Pass |    
+| RT 6 | Validation of signup page functionality | Enter username with atleast 8 string long | username: witchers@gmail.com | Valid username |   | Pass |    
+| RT 7 | Validation of signup page functionality | Enter username with no more than 7 string | username: witcher  | Invalid form of username |   | Pass | 
+| RT 8 | Validation of signup page functionality | Password should not have spaces and atleast 8 character long ,One upper case, one lower case, one special character | Password: Witcher@123 | Strong password  |   | Pass | 
+| RT 9 | Validation of signup page functionality | Password should have spaces and atleast 8 character long , one lower case | Password: witcher 123 | Is not strong password |   | Pass |  
+| RT 10 | Validation of signup page functionality | Password and confirm password field should be entered with same value. | Password: Witcher@123 Confirm: Witcher@123 | Password will be accepted |   | Pass |   
+| RT 11 | Validation of signup page functionality | Password and confirm password field should be entered with different value. | Password: Witcher@123 Confirm: Witcher@23 | Password will not be accepted |   | Pass | 
+| RT 12 | Validation of signup page functionality | Enter every field with their respective parameters and click on submit button /link | Username: witchers@gmail.com password: Witchers@123 Confirm password : Witchers@123  | User will be signup. |   | Pass |  
+| RT 13 | Validate new user entry in database | Enter every field with their respective parameters and click on submit button /link | Username: witchers@gmail.com password: Witchers@123 Confirm password : Witchers@123  | User will be signup and their will be a record of user in database |   | Pass | 
+| RT 14 | Default landing page display general news article | Run your project and it should land you on articles page without login. | - | News article fetch from the API from general category. |   | Pass | 
+| RT 15 | Setting modal should be displayed upon event occuring. | Setting modal should be displayed upon event occuring. | - | Setting modal will open |   | Pass |
+| RT 16 | Functionality of ok and save button/link after they have selected category. | Select atleast one category or multiple and then press "ok or cancel" button/link. | Checkmark business & technology  | After selecting category user should be able to click on "ok or cancel" button/link |   | Pass |   
+| RT 17 | Functionality of ok and save button/link with no category selection. | Not selecting any category and click on "ok or cancel" button/link | - | With no selection user is not enabled with "Ok /Cancel" buttons. |   | Pass |     
+    
    
-   
+
   </p>
   </details>
   
