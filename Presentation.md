@@ -375,3 +375,42 @@
    
    </p>
   </details>
+
+<details><summary> Test Report S4 </summary>
+ <p>
+  
+| Date of test plan | Test case ID | Person executed the test | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- | 
+| 25 Apr'22 | RT 1 |  | Pass   |  |   
+| 25 Apr'22 | RT 2 |  | Pass   |  | 
+| 25 Apr'22 | RT 3 |  | Pass   |  | 
+| 25 Apr'22 | RT 4 |  | Pass   |  |    
+| 25 Apr'22 | RT 5 |  | Pass   |  |   
+| 25 Apr'22 | RT 6 |  | Pass   |  | 
+| 25 Apr'22 | RT 7 |  | Pass   |  | 
+| 25 Apr'22 | RT 8 |  | Pass   |  |    
+| 25 Apr'22 | RT 9 |  | Pass   |  |   
+| 25 Apr'22 | RT 10 |  | Pass   |  | 
+| 25 Apr'22 | RT 12 |  | Pass   |  | 
+| 25 Apr'22 | RT 13 |  | Pass   |  |    
+| 25 Apr'22 | RT 14 |  | Pass   |  |   
+| 25 Apr'22 | RT 15 |  | Pass   |  | 
+| 25 Apr'22 | RT 16 |  | Pass   |  | 
+| 25 Apr'22 | RT 17 |  | Pass   |  |    
+| 25 Apr'22 | RT 18 |  | Pass   |  |   
+| 25 Apr'22 | RT 19 |  | Pass   |  | 
+| 25 Apr'22 | RT 20 |  | Pass   |  | 
+| 25 Apr'22 | RT 21 |  | Pass   |  |    
+| 25 Apr'22 | RT 22 |  | Fail   |  |   
+| 25 Apr'22 | RT 23 |  | Fail   |  | 
+| 25 Apr'22 | RT 24 |  | Fail   |  | 
+| 25 Apr'22 | RT 25 |  | Fail   |  |    
+| 25 Apr'22 | RT 26 |  | Fail   |  | 
+| 25 Apr'22 | RT 27 |  | Fail   |  | 
+                 
+   
+   
+   
+   
+  </p>
+  </details>
