@@ -67,7 +67,7 @@
 | Functionality of settings modal | Manual testing | Selection of catergories  |  Pushti & Muhaimin | 14-18 Mar'22  | Pass |  
 | Unit Testing | Automated testing (JEST)| Testing the functionality of code for test.js file |  Preet  | 19-22 Mar'22  | Pass |
 | Integration Testing | Manual | Testing different modules of the application are working porperly together.  | Preet, Pushti & muhaimin   | 8-11 Apr'22  | Pass | 
-| Regression Testing | Manual | Testing each and every functionality from every sprint.  | Preet, Pushti & muhaimin   | 25-26 Apr'22  | Pass |  
+| Regression Testing | Manual | Testing every functionality from all the sprint.  | Preet, Pushti & muhaimin   | 25-26 Apr'22  | Pass |  
 
 </p>
 </details>
