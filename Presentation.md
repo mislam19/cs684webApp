@@ -125,7 +125,7 @@
   </p> 
   </details> 
 
-<details><summary> Test Case S4</summary>
+<details><summary> Test Cases S4</summary>
  <p>
 
 | Test Case ID# | Test case description | Test steps | Test data | Expected result | Executed by | Pass/Fail |
@@ -147,7 +147,9 @@
 | RT 15 | Setting modal should be displayed upon event occuring. | Setting modal should be displayed upon event occuring. | - | Setting modal will open |   | Pass |
 | RT 16 | Functionality of ok and save button/link after they have selected category. | Select atleast one category or multiple and then press "ok or cancel" button/link. | Checkmark business & technology  | After selecting category user should be able to click on "ok or cancel" button/link |   | Pass |   
 | RT 17 | Functionality of ok and save button/link with no category selection. | Not selecting any category and click on "ok or cancel" button/link | - | With no selection user is not enabled with "Ok /Cancel" buttons. |   | Pass |     
-    
+| RT 18 | Functionality of setting modal and database integration | Select the few category from setting modal and hit save. | Check mark business,technology & sports category | Database will reflect the changes in user preferences |   | Pass |     
+| RT 19 | Functionality of setting modal and home page integration | Select the user prefrence category from setting modal| Check mark business,technology & sports category | Home page will reflect the changes based on user preferences |   | Pass |     
+                
    
 
   </p>
